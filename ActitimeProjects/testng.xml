@@ -1,0 +1,11 @@
+
+<suite name="Suite" parallel="testa">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.ProjectModule"/>
+      <class name="com.actitime.testscript.TaskModule"/>
+      <class name="com.actitime.testscript.UserModule"/>
+      <class name="com.actitime.testscript.Customarmadule"/>
+    </classes>
+  </test> 
+</suite> 
